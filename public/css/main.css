@@ -1,0 +1,196 @@
+body {
+  background-color: #E6E6FA;
+}
+/*********main content styling*********/
+.content {
+  border: 1px solid #660066;
+  border-radius: 0px;
+}
+
+.clear_fl {
+  clear: both;
+  overflow: hidden;
+}
+
+.page_title {
+  text-transform: uppercase;
+  display: block;
+  background-color: #660066;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  font-size: 44px;
+}
+/*********add|edit article form styling*********/
+.form_article input, .form_article select {
+  display: block;
+  float: left;
+  width: 100px;
+}
+
+.form_article #name {
+  width: 100%;
+  margin: 0px;
+  padding: 6px;
+}
+
+.form_article #content {
+  margin-top: 10px;
+  padding: 6px;
+}
+
+.form_article select {
+  padding: 4px;
+  width: 25%;
+}
+
+.form_article input[type="submit"] {
+  width: 25%;
+  float: right;
+}
+
+.form_article input[type="file"] {
+  width: 35%;
+}
+/*********end form styling*********/
+
+/*********articles on home page styling*********/
+.articles {
+  border-top: 1px solid #660066;
+}
+
+.article {
+  padding: 15px;
+  -webkit-box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+  -moz-box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+  box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+}
+
+.article:last-child {
+  margin-bottom: 50px;
+}
+
+.article .name a {
+  text-transform: uppercase;
+  color: #660066;
+}
+
+.article .category a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+/*********end articles styling*********/
+
+/*********layout header*********/
+.header {
+  border-bottom: 1px solid #660066;
+  -webkit-box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+  -moz-box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+  box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+}
+
+.header a {
+  color: black!important;
+}
+/*********end layout header*********/
+
+/**********default button style************/
+.btn_style {
+  background: none;
+  border: 1px solid #660066;
+  color: #660066;
+  font-weight: bold;
+  padding: 2px;
+}
+/**************end button style***********/
+
+.register_btn, .login_btn {
+  width: 200px;
+}
+
+/************add category form style**********/
+.form_category input {
+  display: block;
+  float: left;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.form_category input[type="submit"] {
+  background: none;
+  color: #660066;
+  margin-left: 20px;
+  width: 100px;
+  border: 1px solid #660066;
+}
+/**********end add category style************/
+
+/*********categories on page "category" style**************/
+.categories {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.categories .category {
+  padding: 15px;
+  -webkit-box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+  -moz-box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+  box-shadow: 6px 5px 26px -8px rgba(0,0,0,0.37);
+}
+
+.categories .category .name {
+  text-transform: lowercase;
+  color: #660066;
+}
+
+.categories .category .delete_category {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+/**********end categories styling*************/
+
+/********add feedback form styling***********/
+.form_feedback {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.form_feedback input {
+  display: block;
+  float: left;
+  width: 300px;
+  border: 1px solid black;
+}
+
+
+.form_feedback input[type="submit"] {
+  background: none;
+  color: #660066;
+  margin-left: 20px;
+  width: 100px;
+  border: 1px solid #660066;
+}
+/*******end add feedback styling***********/
+
+/*******article on "article" page styling*********/
+.article_text {
+  color: black;
+  font-size: 18px;
+}
+
+.article_category {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.article_image img {
+  width: 100%;
+}
+/******end article styling**********/
