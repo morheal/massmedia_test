@@ -53,7 +53,7 @@
         processData: false,
         data: form_data,
         //adding new article block if ajax was success
-        success: function(success) { alert(success) }
+        success: alert("Article has been successfuly changed!");
       });
   });
 </script>
